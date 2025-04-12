@@ -7,9 +7,6 @@ import {
     CalendarDays,
     Hourglass,
     LucideProps,
-    Mail,
-    MapPin,
-    Phone,
     Smartphone,
     Ticket,
     Zap,
@@ -30,12 +27,6 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Textarea } from "@/components/ui/textarea";
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger,
-} from "@/components/ui/tooltip";
 
 export default function Home() {
     const whyChooseUs: {
@@ -65,23 +56,6 @@ export default function Home() {
             desc: "Receive your tickets instantly on your phone or email.",
             icon: Smartphone,
         },
-    ];
-
-    const technologies: { image: string; desc: string }[] = [
-        {
-            image: "",
-            desc: "Next.js",
-        },
-        { image: "", desc: "Clerk" },
-        { image: "", desc: "Convex" },
-        { image: "", desc: "Stripe" },
-    ];
-
-    const links: { link: string; title: string }[] = [
-        { link: "https://youtube.com", title: "YouTube" },
-        { link: "https://facebook.com", title: "FaceBook" },
-        { link: "https://instagram.com", title: "Instagram" },
-        { link: "https://twitter.com", title: "X" },
     ];
 
     const formSchema = z.object({
