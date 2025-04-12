@@ -118,7 +118,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Introduction Section */}
             <section className="px-8 py-20 max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row gap-12 items-center">
                     <div className="flex-1">
@@ -144,7 +143,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Services Section */}
             <section id="services" className="px-8 py-20 max-w-7xl mx-auto">
                 <h2 className="text-3xl font-bold mb-12 text-center">
                     WHY CHOOSE BOOKIFY?
@@ -165,15 +163,11 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Contact Form */}
             <section id="contact" className="px-8 py-20 max-w-3xl mx-auto">
                 <div className=" p-12 rounded-3xl">
                     <h2 className="text-3xl font-bold mb-8 text-center">
-                        JOIN HYDRA
+                        JOIN BOOKIFY
                     </h2>
-                    <p className="text-center text-gray-400 mb-12">
-                        Let&apos;s Build Your VR Experience
-                    </p>
                     <Form {...form}>
                         <form
                             onSubmit={form.handleSubmit(onSubmit)}
@@ -254,9 +248,8 @@ export default function Home() {
                         </form>
                     </Form>
                 </div>
-            </section>
-
-            {/* Footer */}
+        </section>
+        
             <footer className=" px-8 py-12">
                 <div className="flex items-center justify-center">
                     <div>
