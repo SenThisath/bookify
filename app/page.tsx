@@ -258,7 +258,7 @@ export default function Home() {
 
             {/* Footer */}
             <footer className=" px-8 py-12">
-                <div className="max-w-7xl flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <div>
                         <div className="flex items-center gap-2">
                             <CalendarDays />
